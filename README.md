@@ -1,0 +1,3 @@
+# EPV-for-Passes
+R code for calculating EPV values for the start and end locations of passes, based on Laurie Shaw's EPV grid. Uses csv with the passes' x and y coordinates both from 0 to 100.
+Start with the NewxG. This will get you from a csv with the passes and their coordinates, to a csv with the start EPV values of those passes added. Then do New2 using the csv with the start values you saved at the end of the first part. This will take you from that csv, to a new one with the end EPV values of the passes as well. Then you can just do some quick Excel work to calculate the PV added/lost for each pass. 
